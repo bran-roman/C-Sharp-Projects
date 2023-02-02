@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\DailyReport\\DailyReport\\DailyReport.csproj",
+      "projectUniqueName": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\DailyReport\\DailyReport\\DailyReport.csproj",
       "projectName": "DailyReport",
-      "projectPath": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\DailyReport\\DailyReport\\DailyReport.csproj",
+      "projectPath": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\DailyReport\\DailyReport\\DailyReport.csproj",
       "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\DailyReport\\DailyReport\\obj\\",
+      "outputPath": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\DailyReport\\DailyReport\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

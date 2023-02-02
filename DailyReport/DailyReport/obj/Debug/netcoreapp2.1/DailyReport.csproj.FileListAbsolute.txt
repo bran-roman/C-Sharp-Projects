@@ -9,3 +9,14 @@ C:\Users\roman\OneDrive\Documents\GitHub\Basic_C#_Programs\DailyReport\DailyRepo
 C:\Users\roman\OneDrive\Documents\GitHub\Basic_C#_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.AssemblyInfo.cs
 C:\Users\roman\OneDrive\Documents\GitHub\Basic_C#_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.dll
 C:\Users\roman\OneDrive\Documents\GitHub\Basic_C#_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.deps.json
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.runtimeconfig.json
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.runtimeconfig.dev.json
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.dll
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.AssemblyInfoInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.AssemblyInfo.cs
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.dll
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.pdb

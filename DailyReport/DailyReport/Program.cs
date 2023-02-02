@@ -39,9 +39,12 @@ namespace DailyReport
             Console.ReadLine();
 
             // Prints parentheses question
-            Console.WriteLine("Do you need help with anything else? Please answer \"True\" or \"False\".");
-            Console.ReadLine();
-            Console.WriteLine("Thanks for letting us know.");
+            Console.WriteLine("Do you need help with anything else? Please answer \"true\" or \"false\".");
+            // Turns response into string
+            string needHelp = Console.ReadLine();
+            // Converts string to bool
+            bool stillNeedHelp = Convert.ToBoolean(needHelp);
+            Console.WriteLine("You selected " + stillNeedHelp);
             Console.ReadLine();
 
             // Prints parentheses question
@@ -60,6 +63,10 @@ namespace DailyReport
             Console.WriteLine("How many hours did you study today");
             // Turns response into string
             string studyHours = Console.ReadLine();
+            // Converts string to Int
+            int studiedHours = Convert.ToInt32(studyHours);
+            Console.WriteLine("Hours you studied for: " + studiedHours);
+            Console.ReadLine();
             
 
             // Prints "The Tech Academy"
