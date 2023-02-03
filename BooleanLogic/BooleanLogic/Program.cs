@@ -20,8 +20,8 @@ namespace BooleanLogic
             string response = Console.ReadLine();
             // Converts string to Boolean
             bool Dui = Convert.ToBoolean(response);
-            // Means "true" if response is either "true" or false" 
-            bool noDui = (true && (true || false));
+            // Means bool "noDui" is True if bool response "Dui" is "false" 
+            bool noDui = (Dui == false);
 
             // Asks for number of speeding tickets
             Console.WriteLine("How many speeding tickets do you have?");
