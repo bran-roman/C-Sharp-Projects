@@ -17,20 +17,18 @@ namespace ConsoleAppArray
             Console.WriteLine("Please select an index of the Array using numbers 0-2.");
             int indexNum = Convert.ToInt32(Console.ReadLine());
 
-            if (indexNum > 2 || indexNum > stringArray.Length - 1 || indexNum < 0) // invalid index
+            if (indexNum > stringArray.Length - 1 || indexNum < 0) // invalid index
             {
-                Console.WriteLine("Array number not valid. Try again.");
-                indexNum = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("The element at index " + indexNum + " is: " + stringArray[indexNum]);
-                Console.ReadLine();
+                Console.WriteLine("Array number not valid.");
             }
             else // index is valid
             {
                 Console.WriteLine("The element at index " + indexNum + " is: " + stringArray[indexNum]);
-                Console.ReadLine();
+                Console.WriteLine("Thank you for picking a valid string. Let's move on.");
+
             }
-            Console.WriteLine("Thank you for picking a valid string. Let's move on.");
-            Console.ReadLine();
+
+            
 
             // 2. One-Dimensional Array of Integers
             int[] intArray = new int[3];
@@ -39,23 +37,20 @@ namespace ConsoleAppArray
             intArray[2] = 2;
 
             // Asks user to select index of array using numbers 0-2
-            Console.WriteLine("Please select an index of the Array u sing numbers 0-2");
+            Console.WriteLine("Please select an index of the Array using numbers 0-2");
             int intNum = Convert.ToInt32(Console.ReadLine());
             
-            if (intNum > 2 || intNum > stringArray.Length-1) || indexNum < 0) // invalid string
+            if (intNum > stringArray.Length-1 || intNum < 0) // invalid string
             {
-                Console.WriteLine("Array number not valid. Try again.");
-                intNum = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("The element at index " + intNum + " is: " + intArray[intNum]);
-                Console.ReadLine();
+                Console.WriteLine("Array number not valid.");
             }
             else // index is valid
             {
                 Console.WriteLine("The element at index " + intNum + " is: " + intArray[intNum]);
-                Console.ReadLine();
+                Console.WriteLine("Great, let's move on");
+
             }
-            Console.WriteLine("Great, let's move on");
-            Console.ReadLine();
+            
 
             // 4. List of Strings
             List<string> intList = new List<string>();
@@ -66,19 +61,16 @@ namespace ConsoleAppArray
             // Asks user to select index of array using numbers 0-2
             Console.WriteLine("Please select an index of the list using numbers 0-2");
             int listNum = Convert.ToInt32(Console.ReadLine());
-            if (listNum > 2 || listNum > intList.Count - 1 || indexNum < 0) // invalid string
+            if (listNum > intList.Count - 1 || listNum < 0) // invalid string
             {
-                Console.WriteLine("Array number not valid. Try again.");
-                listNum = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("The element at index " + listNum + " is: " + intList[listNum]);
-                Console.ReadLine();
+                Console.WriteLine("Array number not valid.");
             }
             else // index is valid
             {
                 Console.WriteLine("The element at index " + listNum + " is: " + intList[listNum]);
-                Console.ReadLine();
+
             }
-            Console.WriteLine("Great, we're all set!");
+            
             Console.ReadLine();
         }
     }

@@ -19,15 +19,30 @@ namespace SixPartAssignment
             Console.WriteLine("Please input some text, preferably your name.");
             string userInput = Console.ReadLine();
 
-            foreach (string message in messages)
+            // 3. Loop iterating through each string + adding userInput to end of each
+            for (int m = 0; m < messages.Length; m++)
             {
-                if (message == "Hey there,")
-                {
-                    messages.Add(userInput);
-                    
-                }
+                messages.Append(userInput);
+                Console.WriteLine("Thank you. We've added your input to our string.");
             }
             Console.ReadLine();
+
+            for (int m = 0; m < messages.Length; m++)
+            {
+                
+                Console.WriteLine(messages[m] + userInput);
+                Console.ReadLine();
+    
+            }
+            
+
+            //if (messages[m] == "Hey there, ")
+            //{
+            //    Console.WriteLine(messages[m] + userInput);
+
+                //}
+                //for (int m=0; m < messages.Length; m)
+                //Console.ReadLine();
 
 
         }
