@@ -19,16 +19,13 @@ namespace SixPartAssignment
             Console.WriteLine("Please input some text, preferably your name.");
             string userInput = Console.ReadLine();
 
-            // 3. Loop iterating through each string + adding userInput to end of each
-            for (int m = 0; m < messages.Length; m++)
-            {
-                messages.Append(userInput);
-            }
 
             for (int m = 0; m < messages.Length; m++)
             {
-
-                Console.WriteLine(messages[m] + userInput);
+                // Adds user input to current data at index "m" in array
+                messages[m] = messages[m] + userInput;
+                // Displays input
+                Console.WriteLine(messages[m]);
                 Console.ReadLine();
             }
 
@@ -70,28 +67,28 @@ namespace SixPartAssignment
             finalScores.Add(25);
             finalScores.Add(99);
             finalScores.Add(87);
+
             // For each score, if score > 85, then print if statement
-            foreach (int score in finalScores)
+            Console.WriteLine("Here are the final test scores: ");
+            for (int i = 0; i < 6; i++)
             {
-                if (score > 85)
-                {
-                    Console.WriteLine("Passing test score: " + score);
-                }
+                Console.WriteLine(finalScores[i]);
             }
-            Console.ReadLine();
 
             // 3. Add another loop where "<=" is the comparison operator
             // For each failScore, if failScore <= 84, print if statement
-            foreach (int failScore in finalScores)
+            Console.WriteLine("Here are the failing test scores: ");
+            for (int i = 0; i <= 5; i++)
             {
-                if (failScore <= 84)
+                if (finalScores[i] > 85)
                 {
-                    Console.WriteLine("Your score of: " + failScore + " did not pass.");
+                    Console.WriteLine(finalScores[i]);
                 }
             }
             Console.ReadLine();
 
             // Part Four Assignment
+
             // 1. Add list of strings where each item is unique
             List<string> pokeList = new List<string>();
             pokeList.Add("Charmander");
@@ -100,23 +97,28 @@ namespace SixPartAssignment
 
             // 2. Ask user to input text to search for in the list
             // Prints message in parentheses
-            Console.WriteLine("Here are three Pokemon. Pick a number between 0-2 to choose your starter.");
+            Console.WriteLine("Here are three Pokemon. Pick a name of one.");
 
 
             // 3. Loop that iterates through list + displays index of list item with matching text on the screen
 
-            int pokeSelect = Convert.ToInt32(Console.ReadLine());
+            string pokeSelect = Console.ReadLine();
             // 4. Add code to check if user input text not on the list
 
-            // If selected number is greater than the number of indexes - 1 OR if selected number is less than 0, print this if statement
-            if (pokeSelect > pokeList.Count - 1 || pokeSelect < 0) // invalid string
+            for (int i = 0; i < pokeList.Count; i++)
             {
-                Console.WriteLine("You didn't choose a valid number. Guess you don't want a Pokemon..");
+                if (pokeSelect == pokeList[i])
+                {
+                    Console.WriteLine("Match found at index number " + i);
+                    break;
+                }
+              
             }
-            else
+            if (!pokeList.Contains(pokeSelect))
             {
-                Console.WriteLine("You've selected: " + pokeSelect + ", so you're Pokemon is " + pokeList[pokeSelect]);
+                Console.WriteLine("There is no matching name on this list.");
             }
+
             // 5. Add a code that stops loop from executing once a match has been found.
             // One loop is ran, pauses console
             Console.ReadLine();
