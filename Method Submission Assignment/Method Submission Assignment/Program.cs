@@ -28,6 +28,7 @@ namespace MethodSubmissionAssignment
             // 2. Instantiate the class and 3. Ask user to input two numbers, one at a time (prompt them the second number is optional)
             Console.WriteLine("Please input an integer to perform math operations on.");
             int intNum = Convert.ToInt32(Console.ReadLine());
+            // Try this block of code when two numbers are inputted
             try
             {
                 Console.WriteLine("Optional: Please input another integer to perform math operations on, otherwise press enter.");
@@ -38,6 +39,7 @@ namespace MethodSubmissionAssignment
                 Console.WriteLine("The sum of " + intNum + " and " + intNum2 + " returned as an integer is: " + result);
                 Console.ReadLine();
             }
+            // When only one number is input, return this message
             catch
             {
                 var result1 = Ops.GetAdd(intNum);
