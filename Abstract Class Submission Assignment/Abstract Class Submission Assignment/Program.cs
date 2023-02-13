@@ -20,7 +20,15 @@ namespace Abstract_Class_Submission_Assignment
 
             // 3. Use polymorphism to create an object of type IQuittable + call Quit() method on it
             IQuittable quittable = new Employee();
-            quittable.Quit(employee);
+            try
+            {
+                quittable.Quit(employee);
+            }
+            catch (NotImplementedException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.ReadLine();
         }
     }
 }
