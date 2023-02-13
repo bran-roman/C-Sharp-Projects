@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Abstract_Class_Submission_Assignment
 {
     // 3. Create another class Employee + inherit from Person Class
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public virtual List<string> Employees { get; set; }
 
@@ -25,5 +25,10 @@ namespace Abstract_Class_Submission_Assignment
 
         }
         
+        // 2. Have employee class inherit interface + implement Quit() method
+        public void Quit(Employee employees)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

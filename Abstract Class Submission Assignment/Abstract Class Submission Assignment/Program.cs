@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Class_Submission_Assignment
 {
-    public class Program
+    public class Program 
     {
         static public void Main(string[] args)
         {
@@ -17,6 +17,10 @@ namespace Abstract_Class_Submission_Assignment
             // Call SayName() method on the object
             employee.SayName();
             Console.ReadLine();
+
+            // 3. Use polymorphism to create an object of type IQuittable + call Quit() method on it
+            IQuittable quittable = new Employee();
+            quittable.Quit(employee);
         }
     }
 }
