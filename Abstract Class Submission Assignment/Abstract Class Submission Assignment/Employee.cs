@@ -24,9 +24,9 @@ namespace Abstract_Class_Submission_Assignment
 
 
         }
-        
+
         // 2. Have employee class inherit interface + implement Quit() method
-        public void Quit(Employee employees)
+        public void Quit(Employee employee)
         {
             throw new NotImplementedException();
         }
