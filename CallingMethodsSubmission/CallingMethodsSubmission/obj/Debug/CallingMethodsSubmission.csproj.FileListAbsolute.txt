@@ -1,0 +1,7 @@
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\bin\Debug\CallingMethodsSubmission.exe.config
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\bin\Debug\CallingMethodsSubmission.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\bin\Debug\CallingMethodsSubmission.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\obj\Debug\CallingMethodsSubmission.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\obj\Debug\CallingMethodsSubmission.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\obj\Debug\CallingMethodsSubmission.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CallingMethodsSubmission\CallingMethodsSubmission\obj\Debug\CallingMethodsSubmission.pdb

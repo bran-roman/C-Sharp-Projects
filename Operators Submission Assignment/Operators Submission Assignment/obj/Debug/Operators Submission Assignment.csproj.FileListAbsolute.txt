@@ -1,0 +1,7 @@
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\obj\Debug\Operators Submission Assignment.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\obj\Debug\Operators Submission Assignment.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\bin\Debug\Operators Submission Assignment.exe.config
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\bin\Debug\Operators Submission Assignment.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\bin\Debug\Operators Submission Assignment.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\obj\Debug\Operators Submission Assignment.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Operators Submission Assignment\Operators Submission Assignment\obj\Debug\Operators Submission Assignment.pdb

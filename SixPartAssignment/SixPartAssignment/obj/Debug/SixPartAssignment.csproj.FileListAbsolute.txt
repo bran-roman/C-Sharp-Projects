@@ -1,0 +1,7 @@
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.exe.config
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.pdb

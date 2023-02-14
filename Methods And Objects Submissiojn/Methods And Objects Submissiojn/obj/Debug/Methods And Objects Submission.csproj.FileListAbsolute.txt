@@ -1,0 +1,7 @@
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\bin\Debug\Methods And Objects Submissiojn.exe.config
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\bin\Debug\Methods And Objects Submissiojn.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\bin\Debug\Methods And Objects Submissiojn.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\obj\Debug\Methods And Objects Submission.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\obj\Debug\Methods And Objects Submission.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\obj\Debug\Methods And Objects Submissiojn.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Methods And Objects Submissiojn\Methods And Objects Submissiojn\obj\Debug\Methods And Objects Submissiojn.pdb

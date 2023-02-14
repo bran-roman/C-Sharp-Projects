@@ -1,0 +1,7 @@
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\bin\Debug\StringsAndIntegersSubmission.exe.config
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\bin\Debug\StringsAndIntegersSubmission.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\bin\Debug\StringsAndIntegersSubmission.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\obj\Debug\StringsAndIntegersSubmission.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\obj\Debug\StringsAndIntegersSubmission.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\obj\Debug\StringsAndIntegersSubmission.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\StringsAndIntegersSubmission\StringsAndIntegersSubmission\obj\Debug\StringsAndIntegersSubmission.pdb
