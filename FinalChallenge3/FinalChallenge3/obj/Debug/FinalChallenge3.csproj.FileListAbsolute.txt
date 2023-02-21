@@ -1,0 +1,13 @@
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\FinalChallenge3.exe.config
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\FinalChallenge3.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\FinalChallenge3.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\EntityFramework.dll
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\EntityFramework.xml
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\obj\Debug\FinalChallenge3.csproj.AssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\obj\Debug\FinalChallenge3.csproj.SuggestedBindingRedirects.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\obj\Debug\FinalChallenge3.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\obj\Debug\FinalChallenge3.csproj.CopyComplete
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\obj\Debug\FinalChallenge3.exe
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\FinalChallenge3\FinalChallenge3\obj\Debug\FinalChallenge3.pdb
