@@ -98,7 +98,7 @@ namespace CarInsurance.Controllers
                 {
                     baseQuote += 25;
                 }
-                else if (carModel == "911 Carrera")
+                if (carModel == "911 Carrera")
                 {
                     baseQuote += 25;
                 }
@@ -121,7 +121,7 @@ namespace CarInsurance.Controllers
 
                 // Calculates updated quote if full coverage is marked, then add 50% to total
 
-                if (!insuree.CoverageType)
+                if (insuree.CoverageType)
                 {
                     baseQuote *= 1.5m;
                 }
@@ -187,7 +187,7 @@ namespace CarInsurance.Controllers
                     {
                         baseQuote += 25;
                     }
-                    else if (carModel == "911 Carrera")
+                    if (carModel == "911 Carrera")
                     {
                         baseQuote += 25;
                     }
