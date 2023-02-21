@@ -69,13 +69,13 @@ namespace CarInsurance.Controllers
                 insureeVm.CoverageType = insuree.CoverageType;
                 insureeVm.Quote = insuree.Quote;
 
-                int baseQuote = 50;
+                decimal baseQuote = 50;
                 int userAge = (int)((DateTime.Now - insuree.DateOfBirth).TotalDays / 365);
                 if (userAge <= 18)
                 {
                     baseQuote += 100;
                 }
-                else if (userAge > 19 && userAge <= 25)
+                else if (userAge >= 19 && userAge <= 25)
                 {
                     baseQuote += 50;
                 }
@@ -83,61 +83,50 @@ namespace CarInsurance.Controllers
                 {
                     baseQuote += 25;
                 }
-                int quoteAfterAge = baseQuote;
 
                 // Calculating quote based on Car Year
                 int carYear = insuree.CarYear;
                 if (carYear < 2000 || carYear > 2015)
                 {
-                    quoteAfterAge += 25;
+                    baseQuote += 25;
                 }
-                int quoteAgeYear = quoteAfterAge;
 
                 // Calculates quote based off Make as Porsche
                 var carMake = insuree.CarMake;
                 var carModel = insuree.CarModel;
                 if (carMake == "Porsche")
                 {
-                    quoteAgeYear += 25;
+                    baseQuote += 25;
                 }
-                else if (carMake == "Porsche" && carModel == "911 Carrera")
+                else if (carModel == "911 Carrera")
                 {
-                    quoteAgeYear += 50;
+                    baseQuote += 25;
                 }
-                int quoteAgeCar = quoteAgeYear;
+
 
                 // Calculates quote based off previous quote number and number of speeding tickets
                 var ticketNum = insuree.SpeedingTickets;
                 var ticketCost = ticketNum * 10;
-                int updatedQuote = quoteAgeCar + ticketCost;
+                if (ticketNum > 0)
+                {
+                    baseQuote += ticketCost;
+                }
 
                 // Calculates updated Quote adding 25% to total if user has had DUI
-                var quoteWithDUI = updatedQuote * 1.25;
-                var updatedQuote2 = quoteWithDUI;
 
-                if (!insuree.DUI)
+                if (insuree.DUI)
                 {
-                    updatedQuote2 = quoteWithDUI;
+                    baseQuote *= 1.25m;
                 }
-                else
-                {
-                    updatedQuote2 = updatedQuote;
-                }
-                var updatedQuote3 = updatedQuote2;
 
                 // Calculates updated quote if full coverage is marked, then add 50% to total
-                var userCov = updatedQuote3 * 1.5;
-                var updatedQuote4 = userCov;
 
                 if (!insuree.CoverageType)
                 {
-                    updatedQuote4 = userCov;
+                    baseQuote *= 1.5m;
                 }
-                else
-                {
-                    updatedQuote4 = updatedQuote3;
-                }
-                var total = updatedQuote4;
+
+                var total = baseQuote;
                 insuree.Quote = Convert.ToDecimal(total);
                 insureeVm.Quote = insuree.Quote;
 
@@ -159,7 +148,7 @@ namespace CarInsurance.Controllers
         {
             using (InsuranceEntities db = new InsuranceEntities())
             {
-                int baseQuote = 50;
+                decimal baseQuote = 50;
                 var insurees = db.Insurees;
                 var adminVms = new List<AdminVm>();
                 foreach (var insuree in insurees)
@@ -182,61 +171,50 @@ namespace CarInsurance.Controllers
                     {
                         baseQuote += 25;
                     }
-                    int quoteAfterAge = baseQuote;
 
                     // Calculating quote based on Car Year
                     int carYear = insuree.CarYear;
                     if (carYear < 2000 || carYear > 2015)
                     {
-                        quoteAfterAge += 25;
+                        baseQuote += 25;
                     }
-                    int quoteAgeYear = quoteAfterAge;
+
 
                     // Calculates quote based off Make as Porsche
                     var carMake = insuree.CarMake;
                     var carModel = insuree.CarModel;
                     if (carMake == "Porsche")
                     {
-                        quoteAgeYear += 25;
+                        baseQuote += 25;
                     }
-                    else if (carMake == "Porsche" && carModel == "911 Carrera")
+                    else if (carModel == "911 Carrera")
                     {
-                        quoteAgeYear += 50;
+                        baseQuote += 25;
                     }
-                    int quoteAgeCar = quoteAgeYear;
 
-                    // Calculates quote based off previous quote number and number of speeding tickets
+                    // Calculates speeding ticket cost
                     var ticketNum = insuree.SpeedingTickets;
                     var ticketCost = ticketNum * 10;
-                    int updatedQuote = quoteAgeCar + ticketCost;
+                    if (ticketNum > 0)
+                    {
+                        baseQuote += ticketCost;
+                    }
 
                     // Calculates updated Quote adding 25% to total if user has had DUI
-                    var quoteWithDUI = updatedQuote * 1.25;
-                    var updatedQuote2 = quoteWithDUI;
 
-                    if (!insuree.DUI)
+                    if (insuree.DUI)
                     {
-                        updatedQuote2 = quoteWithDUI;
+                        baseQuote *= 1.25m;
                     }
-                    else
-                    {
-                        updatedQuote2 = updatedQuote;
-                    }
-                    var updatedQuote3 = updatedQuote2;
 
                     // Calculates updated quote if full coverage is marked, then add 50% to total
-                    var userCov = updatedQuote3 * 1.5;
-                    var updatedQuote4 = userCov;
 
-                    if (!insuree.CoverageType)
+                    if (insuree.CoverageType)
                     {
-                        updatedQuote4 = userCov;
+                        baseQuote *= 1.5m;
                     }
-                    else
-                    {
-                        updatedQuote4 = updatedQuote3;
-                    }
-                    var total = updatedQuote4;
+
+                    var total = baseQuote;
                     insuree.Quote = Convert.ToDecimal(total);
                     adminVm.Quote = insuree.Quote;
                     adminVms.Add(adminVm);
