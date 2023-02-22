@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment.csproj",
+        "projectName": "ChallengeSubmissionAssignment",
+        "projectPath": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment.csproj",
+        "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roman\\OneDrive\\Documents\\GitHub\\C-Sharp-Projects\\ChallengeSubmissionAssignment\\ChallengeSubmissionAssignment\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.24, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.24, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

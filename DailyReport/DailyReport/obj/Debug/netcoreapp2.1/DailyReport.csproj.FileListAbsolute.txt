@@ -14,9 +14,11 @@ C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyRepor
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.runtimeconfig.dev.json
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.dll
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\bin\Debug\netcoreapp2.1\DailyReport.pdb
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.csprojAssemblyReference.cache
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.csproj.CoreCompileInputs.cache
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.AssemblyInfoInputs.cache
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.AssemblyInfo.cs
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.dll
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.csproj.AssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\DailyReport\DailyReport\obj\Debug\netcoreapp2.1\DailyReport.genruntimeconfig.cache

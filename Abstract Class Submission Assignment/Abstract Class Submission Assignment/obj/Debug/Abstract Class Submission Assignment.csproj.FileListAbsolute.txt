@@ -1,7 +1,8 @@
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\bin\Debug\Abstract Class Submission Assignment.exe.config
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\bin\Debug\Abstract Class Submission Assignment.exe
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\bin\Debug\Abstract Class Submission Assignment.pdb
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\obj\Debug\Abstract Class Submission Assignment.csprojAssemblyReference.cache
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\obj\Debug\Abstract Class Submission Assignment.csproj.CoreCompileInputs.cache
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\obj\Debug\Abstract Class Submission Assignment.exe
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\obj\Debug\Abstract Class Submission Assignment.pdb
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\obj\Debug\Abstract Class Submission Assignment.csproj.AssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\Abstract Class Submission Assignment\Abstract Class Submission Assignment\obj\Debug\Abstract Class Submission Assignment.csproj.SuggestedBindingRedirects.cache

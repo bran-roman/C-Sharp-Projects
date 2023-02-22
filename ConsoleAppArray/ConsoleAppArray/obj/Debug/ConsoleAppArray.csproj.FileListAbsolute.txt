@@ -1,7 +1,0 @@
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.exe.config
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.exe
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.pdb
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csprojAssemblyReference.cache
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csproj.CoreCompileInputs.cache
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.exe
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.pdb
