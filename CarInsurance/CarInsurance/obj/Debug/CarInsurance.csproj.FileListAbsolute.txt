@@ -77,4 +77,4 @@ C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CarInsurance\CarInsura
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
-C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csprojAssemblyReference.cache
+C:\Users\roman\OneDrive\Documents\GitHub\C-Sharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.AssemblyReference.cache
