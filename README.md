@@ -1,6 +1,8 @@
 # C-Sharp Projects
  This repository contains C Sharp related projects as part of The Tech Academy's Software Development Course.
 
+Update (6/12)
+- Added fully functional 21 Card Game Console Application Program
 
 Projects:
 
@@ -76,4 +78,8 @@ In Part Six, we're creating two lists of strings with grade values. Using a "for
 
 Strings and Integers:
 In this Console App project, our program utilizes try and catch blocks to loop through different types of exceptions. A user is asked to select a number from an integer list. Using a for loop, the code within will divide each list item by the user input number, which will then write those results to the console. If the user input is invalid, a catch loop will recognize the exception and return a message depending on the exception type.
+
+Twenty One (21) Card Gmae:
+This is a Console Application including the traditional card game of 21. Input your name and number amount you'll bring to the table, then place your bet to begin playing.
+- Features: Hit/Stay user inputs, Custom error message if the input value is greater than the amount you have, etc.
 
