@@ -4,11 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     // Generics notes
     public class Player
     {
+        public Player(string name) : this(name, 100)
+        {
+
+        }
+
+
         public Player(string name, int beginningBalance)
         {
             // Taking instructor that takes two arguments and we're assigning them propertiies of this object
@@ -22,6 +28,7 @@ namespace TwentyOne
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
 
         public bool Bet(int amount)
         {

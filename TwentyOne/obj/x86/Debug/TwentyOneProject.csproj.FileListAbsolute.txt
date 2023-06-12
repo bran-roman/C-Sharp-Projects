@@ -1,0 +1,2 @@
+C:\Users\roman\source\repos\TwentyOne\TwentyOne\obj\x86\Debug\TwentyOneProject.csprojAssemblyReference.cache
+C:\Users\roman\source\repos\TwentyOne\TwentyOne\obj\x86\Debug\TwentyOneProject.csproj.CoreCompileInputs.cache

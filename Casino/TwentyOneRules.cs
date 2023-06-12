@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneRules
     {
         // Naming values for private classes have "_"
         private static Dictionary<Face, int> _cardValues = new Dictionary<Face, int>()
         {
+            
             [Face.Two] = 2,
             [Face.Three] = 3,
             [Face.Four] = 4,
@@ -23,10 +24,10 @@ namespace TwentyOne
             [Face.Jack] = 10,
             [Face.Queen] = 10,
             [Face.King] = 10,
-            [Face.Ace] = 1
+            [Face.Ace] = 1,
         };
 
-        public static int[] GetAllPossibleHandValues(List<Card> Hand)
+        private static int[] GetAllPossibleHandValues(List<Card> Hand)
         {
             int aceCount = Hand.Count(x => x.Face == Face.Ace);
             int[] result = new int[aceCount + 1];
@@ -39,7 +40,7 @@ namespace TwentyOne
             for (int i = 1; i < result.Length; i++)
             {
                 // Value = Lowest possible value
-                value += value + (i * 10);
+                value += (i * 10);
                 result[i] = value;
             }
             return result;
@@ -62,8 +63,8 @@ namespace TwentyOne
 
         public static bool ShouldDealerStay(List<Card> Hand)
         {
-            int[] possibleValues = GetAllPossibleHandValues(Hand);
-            foreach (int value in possibleValues)
+            int[] possibleHandValues = GetAllPossibleHandValues(Hand);
+            foreach (int value in possibleHandValues)
             {
                 if (value > 16 && value < 22)
                 {
