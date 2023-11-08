@@ -2,7 +2,7 @@
  This repository contains C Sharp related projects as part of The Tech Academy's Software Development Course.
 
 Update (6/12)
-- Added fully functional 21 Card Game Console Application Program
+- Added in-progress 21 Card Game Console Application Program
 
 Projects:
 
